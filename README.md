@@ -41,7 +41,7 @@ JSON parsing. This wrapper does the enchantment.
 
 ```xml
 <dependency>
-    <groupId>io.github.jasineri</groupId>
+    <groupId>de.jasineri.brokercli</groupId>
     <artifactId>broker-cli-wrapper</artifactId>
-    <version>1.0.0</version>
+    <version>1.0-SNAPSHOT</version>
 </dependency>
