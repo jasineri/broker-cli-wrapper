@@ -43,5 +43,5 @@ JSON parsing. This wrapper does the enchantment.
 <dependency>
     <groupId>de.jasineri.brokercli</groupId>
     <artifactId>broker-cli-wrapper</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
 </dependency>
