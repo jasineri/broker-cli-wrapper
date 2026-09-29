@@ -40,6 +40,8 @@ import java.util.regex.Pattern;
  */
 public class BrokerCli {
 
+    private static final String ACTIVATE_URL = "https://secure.scalable.capital/activate?user_code=";
+
     /** Maximum time to wait for the {@code sc login} device flow to complete. */
     private static final long LOGIN_TIMEOUT_SECONDS = 5 * 60;
 
@@ -90,10 +92,11 @@ public class BrokerCli {
             System.out.println(clean);
 
             if (code[0] == null) {
-                String c = extract(clean, "user_code=([A-Za-z0-9-]+)");
-                if (c != null) {
-                    code[0] = c;
-                    loginThread[0] = new Thread(() -> browserOpener.accept(c), "browser-opener");
+                String userCode = extract(clean, "user_code=([A-Za-z0-9-]+)");
+                if (userCode != null) {
+                    code[0] = userCode;
+                    loginThread[0] = new Thread(() -> browserOpener.accept(
+                            ACTIVATE_URL + userCode), "browser-opener");
                     loginThread[0].start();
                 }
             }
