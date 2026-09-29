@@ -27,13 +27,13 @@ JSON parsing. This wrapper does the enchantment.
 
 ## Features
 
-| Feature | Description |
-|---|---|
-| `login()` | Runs `sc login`, opens the device-code URL in your browser |
-| `isLoggedIn()` | Checks `sc whoami` and returns a boolean |
-| `run(...)` | Runs any `sc` subcommand and returns stdout |
+| Feature | Description                                                       |
+|---|-------------------------------------------------------------------|
+| `login()` | Runs `sc login`, opens the device-code URL in your browser        |
+| `isLoggedIn()` | Checks `sc whoami` and returns a boolean                          |
+| `run(...)` | Runs any `sc` subcommand and returns stdout                       |
 | `runJson(...)` | Runs any `sc` subcommand and returns a JsonPath `DocumentContext` |
-| Cross-platform browser opener | Linux, Windows, macOS |
+| Cross-platform browser opener | Opens default browser for login on Linux, Windows, macOS          |
 
 ## Quick Start
 
