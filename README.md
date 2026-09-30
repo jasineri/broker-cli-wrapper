@@ -10,13 +10,13 @@
 
 </div>
 
-> **Disclaimer:** This project is **not affiliated with, endorsed by, or sponsored by**
-> Scalable Capital GmbH. "Scalable Capital" and the `sc` CLI are trademarks of their
-> respective owners. This is an independent, unofficial wrapper.
->
-> Users are responsible for complying with Scalable Capital's terms of service.
-> This software does not provide financial advice.
-
+> **Disclaimer**
+> This project is not affiliated with Scalable Capital GmbH and is neither endorsed nor sponsored by Scalable Capital GmbH. “Scalable Capital” and any other referenced trademarks are trademarks of their respective owners. This project is an independent, unofficial third-party tool.
+> Use of this software is entirely at your own risk and responsibility. Users are solely responsible for complying with the applicable terms of use, policies, rules, and requirements of Scalable Capital and for ensuring that their use of this software is permitted under those terms.
+> Users are solely responsible for all actions, orders, transactions, and trading decisions made or supported through the use of this software. Users should independently verify all displayed information, order parameters, and settings before submitting any transaction.
+> The developer and/or maintainer of this project assumes no responsibility or liability for trading decisions, financial losses, loss of profits, incorrect or unexecuted orders, technical issues, service interruptions, changes to broker interfaces, or any other damages arising from or related to the use of, or inability to use, this software.
+> This software does not constitute financial, investment, legal, or tax advice. Use of this software does not create any advisory, fiduciary, or client relationship between the developer and the user.
+> The user remains solely responsible for their decisions and actions when using this software.
 ---
 
 ## Why?
